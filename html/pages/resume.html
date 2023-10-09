@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <style>
+            
+/*----------------start of resume section------------------*/
+@keyframes slides {
+    0%{transform: translateX(0);}
+    20%{transform: translateX(-80%);}
+    40%{transform: translateX(-150%);}
+    60%{transform: translateX(-200%);}
+    80%{transform: translateX(-290%);}
+    100%{transform: translateX(-380%);}
+}
+.container{
+    overflow: hidden;
+}
+.slides{
+    display: flex;
+    animation: slides 15s infinite;
+}
+.slides img{
+    width: 50%;
+}            
+
+
+
+/*----------------end of resume section-----------------*/
+
+
+        </style>
+    </head>
+    <body>
+        <!--start of resume section-->
+    <div class="container">
+        <div class="slides">
+            <img src="../images/123.jpg">
+            <img src="../images/welcome.png">
+            <img src="../images/logo.PNG">
+        </div>
+    </div>        
+                <!--end of resume section-->
+
+    </body>
+</html>

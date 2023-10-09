@@ -1,0 +1,298 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*--------------start logo--------------------*/
+.logo{
+    text-align: center;
+    background-color: blue;
+}
+/*-----------end logo-----------------------*/
+/*------------start navbar----------------------*/
+.navbar{
+    text-align: center;
+    padding: 12px 0;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 0 26px;
+    font-size: 24px;
+}
+.navbar a:hover{
+    background-color: blue;
+    color: yellow;
+}
+/*------------end navbar----------------------*/
+/*----------------start container------------------*/
+.container{
+    display: flex;
+    height: 500px;
+}
+/*----------------end container------------------*/
+/*-----------------start right&left slider-----------------*/
+.r-slider,.l-slider{
+    text-align: center;
+    flex: 1;
+    margin: 10px;
+}
+.slides{
+    border-radius: 5%;
+    padding: 10px;
+    border-style: solid;
+    height: 500px;
+}
+
+/*-------------end right slider---------------------*/
+/*----------------start body------------------*/
+.body{
+    flex: 2;
+    display: inline-block;
+    margin: 10px;
+    
+}
+/*----------------end body------------------*/
+/*----------------start of cv section------------------*/
+.body-navbar{
+    display: none;
+}
+.right{
+    display: inline;
+    width: 50%;
+    float: left;
+}
+.body-img1{
+    width: 50%;
+    display: block;
+    padding: 10px;
+    border-radius: 50%;
+}
+.hello{
+    width: 100px;
+    display: inline;
+    text-align: center;
+    background-color: aqua;
+    padding: 5px 20px;
+    border-radius: 0 30px 0 30px;
+}
+.i{
+    display: inline-block;
+    padding: 10px;
+    font-size: 25px;
+}
+.body-navbar div{
+    width: 50%;
+    display: inline-block;
+}
+.left{
+    text-align: center;
+    display: inline;
+    width: 50%;
+    float: right;
+}
+.body-img2{
+    padding: 50px;
+    border-radius: 50%;
+}
+
+#cv:target{
+    display: inline;
+}
+
+/*----------------end of cv section-----------------*/
+
+/*----------------start of do section------------------*/
+.body-skills{
+    display: none;
+}
+.what{
+    font-size: 50px;
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+.imgss{    
+    display: flex;
+    height: 250px;
+    width: 100%;
+    
+}
+.div1,.div2{
+    flex: 1;
+    background-color: white;
+    margin: 35px;
+    box-shadow: 5px 5px 20px black;
+    padding: 20px;    
+}
+.ui{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+.uii{
+    float: right;
+    display: inline;
+    text-align: center;
+    width: 50%;
+    
+}
+.div1 img{
+    width: 80%;
+    
+}
+
+.body-skills .imgss div:hover{
+    width: 20;
+    transform: scale(1.1); 
+    transition: transform .5s;
+}
+
+#do:target {
+    display: inline;
+}
+
+/*----------------end of do section-----------------*/
+/*----------------start of skills section------------------*/
+.skills{
+    display: none;
+}
+.skills div{
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+.imgy{
+    border-radius: 50%;
+    padding: 20px ;
+}
+.skills a{
+    padding: 0px 20px 0 0 ;
+}
+
+#skills:target {
+    display: inline;
+}
+
+/*----------------end of skills section-----------------*/
+/*----------------start of resume section------------------*/
+.body-resume {
+    display: none;
+}
+.content-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider{
+    width: 50%;
+}
+.slides{
+    display: flex;
+    overflow-x: scroll;
+    
+}
+.slides div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+
+#resume:target {
+    display: inline;
+}
+
+/*----------------end of resume section-----------------*/
+/*----------------start of contact section------------------*/
+.body-contact {
+    display: none;
+    padding: 50px;
+    text-align: center;
+    
+}
+
+fieldset {
+    display: inline;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: yellow;
+    border-image: initial;
+}
+
+.body-contact a{
+    padding: 20px;
+}
+
+#contact:target {
+    display: inline;
+}
+/*-------------------*/
+#thanks{
+    font-size: 40px;
+    visibility: hidden;
+    text-align: center;
+    height: 50px;
+}
+#thanks:target {
+    visibility: visible;
+    
+}
+/*-------------------*/
+
+/*----------------end of contact section-----------------*/
+/*----------------start of good-at section------------------*/
+.body-good-at{
+    display: none;
+}
+.what{
+    font-size: 50px;
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+.imgsss{    
+    display: flex;
+    height: 250px;
+    width: 100%;
+}
+.div01{
+    flex: 1;
+    background-color: white;
+    margin: 10px;
+    box-shadow: 5px 5px 20px black;
+    padding: 10px;
+}
+.ai{
+    text-align: center;
+    padding: 10px;
+}
+.aii{
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    
+}
+.div01 img{
+    width: 80%;
+    
+}
+
+.body-good-at .imgsss div:hover{
+    width: 20;
+    transform: scale(1.1); 
+    transition: transform .5s;
+}
+
+#good-at:target {
+    display: inline;
+}
+
+/*----------------end of good-at section-----------------*/
+
+

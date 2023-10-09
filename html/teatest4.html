@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <style>
+            .slider {
+  width: 100%;
+  height: 300px;
+}
+
+.slides {
+  display: flex;
+  animation: marquee 10s linear infinite;
+}
+
+.slides img {
+  width: 100%;
+  height: auto;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+        </style>
+    </head>
+    <body>
+<div class="slider">
+  <div class="slides">
+    <img src="../images/1.png" alt="Image 1">
+    <img src="../images/1.png" alt="Image 2">
+    <img src="../images/1.png" alt="Image 3">
+  </div>
+</div>
+    </body>
+</html>
